@@ -1,154 +1,135 @@
-### [Orange](https://github.com/Mukullight/orange/)
+<div class="terminal-wrapper" style="background-color: #000000; padding: 35px; border-radius: 15px; border: 1px solid #1a3d12; font-family: 'Courier New', monospace; box-shadow: inset 0 0 20px #000000, 0 0 30px #0f4a05;">
 
+    <h3 style="color: #26cc0d; text-shadow: 0 0 10px #39ff14; font-size: 1.6rem; margin-bottom: 30px; border-bottom: 1px solid #1a3d12; padding-bottom: 10px;">[PROJECT_PORTFOLIO_MANIFEST]</h3>
 
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/orange.png" alt="Orange Project Preview" 
-         style="float: left; width: 400px; height: 300px; padding: 10px;">
-  </a>
-  <div class="project-info">
-    <h2>Orange 🍊</h2>
-    <p>🧪 An AI-based Social Network</p>
-    <p>
-      In this service, users can engage in conversations, share interesting facts, and fact-check, 
-      leveraging Mistral AI's powerful capabilities to enhance interaction and accuracy.
-    </p>
-  </div>
+    <!-- Project 1: Orange -->
+    <div class="project-module" style="margin-bottom: 50px; border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="margin-top: 0;"><a href="https://github.com/Mukullight/orange/" style="color: #39ff14; text-decoration: none; text-shadow: 0 0 5px #39ff14;">> [Orange 🍊]</a></h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/orange.png" alt="Orange Project Preview" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">Orange 🍊</h2>
+                <p style="color: #26cc0d; font-weight: bold;">🧪 An AI-based Social Network</p>
+                <p style="line-height: 1.6;">In this service, users can engage in conversations, share interesting facts, and fact-check, leveraging Mistral AI's powerful capabilities to enhance interaction and accuracy.</p>
+                <p style="color: #39ff14; font-size: 0.9em;">* Source code: <a href="https://github.com/Mukullight/orange" style="color: #ffffff; text-decoration: underline;">GitHub</a></p>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/J8lJNTBApd">pic.twitter.com/J8lJNTBApd</a></blockquote>
+        </div>
+    </div>
+
+    <!-- Project 2: Null Val -->
+    <div class="project-module" style="margin-bottom: 50px; border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="margin-top: 0;"><a href="https://github.com/Mukullight/nullvalue" style="color: #39ff14; text-decoration: none; text-shadow: 0 0 5px #39ff14;">> [Null Val]</a></h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/nullval.png" alt="NULLVAL" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">NULLVAL</h2>
+                <p style="color: #26cc0d; font-weight: bold;">A Library for data cleaning</p>
+                <ul style="list-style-type: '> '; padding-left: 20px; line-height: 1.6;">
+                    <li>This repository contains different kinds of methods for the treament of null values and outliers</li>
+                    <li>Using various kinds of numerical techniques for the ideal replacement of values in your dataframe</li>
+                </ul>
+                <p style="color: #39ff14; font-size: 0.9em;">* Source code: <a href="https://github.com/Mukullight/nullvalue" style="color: #ffffff; text-decoration: underline;">GitHub</a></p>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/4WbiTEjiMU">pic.twitter.com/4WbiTEjiMU</a></blockquote>
+        </div>
+    </div>
+
+    <!-- Project 3: RAG ENGINE -->
+    <div class="project-module" style="margin-bottom: 50px; border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="margin-top: 0;"><a href="https://github.com/Mukullight/nullvalue" style="color: #39ff14; text-decoration: none; text-shadow: 0 0 5px #39ff14;">> [RAG ENGINE]</a></h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/RAG.png" alt="rag" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">RAG ENGINE</h2>
+                <p style="color: #26cc0d; font-weight: bold;">Rag engine with a locally run llm</p>
+                <ul style="list-style-type: '> '; padding-left: 20px; line-height: 1.6;">
+                    <li>This project helps the user to access the knowledge base to get topic specific responses</li>
+                    <li>Locally run llm is used to read and process the document and assign the importance of the doc and generate a more appropriate response</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/EKMilF69eX">pic.twitter.com/EKMilF69eX</a></blockquote>
+        </div>
+    </div>
+
+    <!-- Project 4: Character AI -->
+    <div class="project-module" style="margin-bottom: 50px; border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="color: #39ff14; text-shadow: 0 0 5px #39ff14;">> [Character AI]</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/dost.jpg" alt="character AI" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">Character AI</h2>
+                <p style="color: #26cc0d; font-weight: bold;">Responses in the tone of the Character</p>
+                <ul style="list-style-type: '> '; padding-left: 20px; line-height: 1.6;">
+                    <li>The Character AI project, particularly when it involves creating or interacting with an AI character emulating the style or persona of Fyodor Dostoevsky's characters...</li>
+                    <li>Dostoevsky's writing is known for its psychological depth, complex sentence structures, and a rich, sometimes dark, vocabulary.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/JWRDBfZH4G">pic.twitter.com/JWRDBfZH4G</a></blockquote>
+        </div>
+    </div>
+
+    <!-- Project 5: Recommendation System -->
+    <div class="project-module" style="margin-bottom: 50px; border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="color: #39ff14; text-shadow: 0 0 5px #39ff14;">> [Simple Recommendation system]</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/recco.png" alt="recco" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">Recommendation System</h2>
+                <p style="color: #26cc0d; font-weight: bold;">Recommend movies based on the selected content</p>
+                <ul style="list-style-type: '> '; padding-left: 20px; line-height: 1.6;">
+                    <li>Hybrid Recommendation Engine: Utilizes a combination of collaborative and content-based filtering...</li>
+                    <li>Real-time Learning and Scalability: The system continuously learns from user interactions in real-time.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/GLdgSXBNml">pic.twitter.com/GLdgSXBNml</a></blockquote>
+        </div>
+    </div>
+
+    <!-- Project 6: TOKVIZ -->
+    <div class="project-module" style="border: 1px solid #1a3d12; padding: 20px; border-radius: 10px; background: rgba(15, 74, 5, 0.1);">
+        <h3 style="color: #39ff14; text-shadow: 0 0 5px #39ff14;">> [TOKVIZ]</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            <a href="https://github.com/mukullight" target="_blank" style="flex: 0 0 400px;">
+                <img src="../../images/projects/tokviz.png" alt="tokviz" style="width: 100%; height: auto; border: 2px solid #39ff14; border-radius: 8px; box-shadow: 0 0 15px #39ff1444;">
+            </a>
+            <div style="flex: 1; color: #ffffff;">
+                <h2 style="color: #39ff14; margin-top: 0;">TOKVIZ</h2>
+                <p style="color: #26cc0d; font-weight: bold;">Tokviz a token visualizer</p>
+                <ul style="list-style-type: '> '; padding-left: 20px; line-height: 1.6;">
+                    <li>Multi-Model Tokenization Comparison: Enables visualization of how different language models tokenize text...</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20px; border-top: 1px dashed #1a3d12; padding-top: 20px;">
+            <blockquote class="twitter-tweet" data-theme="dark"><a href="https://t.co/kwsqcZE4NQ">pic.twitter.com/kwsqcZE4NQ</a></blockquote>
+        </div>
+    </div>
+
 </div>
 
-
-  
-* The project source code is available on the official repository: [GitHub](https://github.com/Mukullight/orange).
-
-
-<blockquote class="twitter-tweet" data-media-max-width="70><p lang="zxx" dir="ltr"><a href="https://t.co/J8lJNTBApd">pic.twitter.com/J8lJNTBApd</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1875149118647193815?ref_src=twsrc%5Etfw">January 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-### [Null Val](https://github.com/Mukullight/nullvalue)
-
-
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/nullval.png" alt="NULLVAL" 
-         style="float: left; width: 400px; height: 300px;  padding: 30px;">
-  </a>
-  <div class="project-info">
-    <h2>NULLVAL</h2>
-    <p>A Library for data cleaning</p>
-    <p>
-    * This repository contains different kinds of methods for the treament of null values and outliers
-    <br>
-    * Using various kinds of numerical techniques for the ideal replacement of values in your dataframe
-    </p>
-  </div>
-</div>
-
-
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zxx" dir="ltr"><a href="https://t.co/4WbiTEjiMU">pic.twitter.com/4WbiTEjiMU</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1882516189378994420?ref_src=twsrc%5Etfw">January 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-  
-* The project source code is available on the official repository: [GitHub](https://github.com/Mukullight/nullvalue).
-
-
-### [RAG ENGINE](https://github.com/Mukullight/nullvalue)
-
-
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/RAG.png" alt="rag" 
-         style="float: left; width: 400px; height: 300px; padding: 10px;">
-  </a>
-  <div class="project-info">
-    <h2>RAG ENGINE</h2>
-    <p>Rag engine with a locally run llm</p>
-    <p>
-    * This project helps the user to access the knowledge base to get topic specific responses
-    <br>
-    * Locally run llm is used to read and process the document and assign the importance of the doc and generate a more appropriate response
-    <br>
-    </p>
-  </div>
-</div>
-
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zxx" dir="ltr"><a href="https://t.co/EKMilF69eX">pic.twitter.com/EKMilF69eX</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1875149582902170065?ref_src=twsrc%5Etfw">January 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  
-
-### [Character AI]
-
-
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/dost.jpg" alt="character AI" 
-         style="float: left; width: 40%; height: 50%; padding: 10px;">
-  </a>
-  <div class="project-info">
-    <h2>Character AI</h2>
-    <p>Responses in the tone of the Character</p>
-    <p>
-    * The Character AI project, particularly when it involves creating or interacting with an AI character emulating the style or persona of Fyodor Dostoevsky's characters, involves leveraging advanced natural language processing and machine learning techniques to generate responses that reflect his literary style, philosophical viewpoints, and character traits.
-
-    * Dostoevsky's writing is known for its psychological depth, complex sentence structures, and a rich, sometimes dark, vocabulary. The AI is trained on a corpus of Dostoevsky's texts to learn this style, ensuring responses mimic his literary tone, including the use of rhetorical questions, introspections, and a nuanced approach to morality.
-
-    <br>
-    </p>
-  </div>
-</div>
-
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zxx" dir="ltr"><a href="https://t.co/JWRDBfZH4G">pic.twitter.com/JWRDBfZH4G</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1875149476450775414?ref_src=twsrc%5Etfw">January 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-### [Simple Reccomendation system]
-
-
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/recco.png" alt="recco" 
-         style="float: left; width: 40%; height: 50%; padding: 10px;">
-  </a>
-  <div class="project-info">
-    <h2>Reccomendation System</h2>
-    <p>Reccomend movies based on the selected content</p>
-    <p>
-* Hybrid Recommendation Engine: Utilizes a combination of collaborative and content-based filtering to provide highly personalized suggestions, enhancing user engagement by adapting to both collective user behavior and individual preferences.
-* Real-time Learning and Scalability: The system continuously learns from user interactions in real-time, ensuring recommendations evolve with user tastes, while its scalable architecture efficiently handles large datasets for quick, accurate results.
-    <br>
-    </p>
-  </div>
-</div>
-
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zxx" dir="ltr"><a href="https://t.co/GLdgSXBNml">pic.twitter.com/GLdgSXBNml</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1875149349786952184?ref_src=twsrc%5Etfw">January 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
-
-### [TOKVIZ]
-
-
-<div class="project-preview">
-  <a href="https://github.com/mukullight" target="_blank">
-    <img src="../../images/projects/tokviz.png" alt="recco" 
-         style="float: left; width: 40%; height: 50%; padding: 10px;">
-  </a>
-  <div class="project-info">
-    <h2>TOKVIZ</h2>
-    <p>Tokviz a token vizualizer</p>
-    <p>
-    * Multi-Model Tokenization Comparison: Enables visualization of how different language models tokenize text, using color-coding to differentiate tokens based on their properties, which aids in understanding and comparing tokenization patterns across models
-    * Multi-Model Tokenization Comparison: Enables visualization of how different language models tokenize text, using color-coding to differentiate tokens based on their properties, which aids in understanding and comparing tokenization patterns across models
-    <br>
-    </p>
-  </div>
-</div>
-
-
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zxx" dir="ltr"><a href="https://t.co/kwsqcZE4NQ">pic.twitter.com/kwsqcZE4NQ</a></p>&mdash; Mukul Namagiri (@MNamagiri66052) <a href="https://twitter.com/MNamagiri66052/status/1875149256086225156?ref_src=twsrc%5Etfw">January 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<!-- Required for Twitter Widgets to load -->
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 <footer class="custom-footer">

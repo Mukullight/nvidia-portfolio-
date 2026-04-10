@@ -1,36 +1,156 @@
+<div class="terminal-wrapper" style="background-color: #000000; padding: 40px; border-radius: 12px; border: 1px solid #1a3d12; box-shadow: inset 0 0 20px #000000, 0 0 30px #0f4a05;">
+    
+    <div class="terminal-container" style="color: #39ff14; font-family: 'Courier New', monospace; max-width: 2000px; margin: 0 auto;">
+        
+        <!-- About Me Section -->
+        <h2 style="color: #26cc0d; text-shadow: 0 0 10px #39ff14; font-size: 1.5rem; margin-top: 0;">About me</h3>
+        <p style="line-height: 1.6; opacity: 0.9;">Highly skilled, passionate and hardworking AI developer with an ability to complete functional specifications by developing, testing, and deploying real-time solutions. Ensuring Compliance and Security standards.</p>
+        
+        <ul style="list-style-type: none; padding-left: 0; margin: 20px 0;">
+            <li><strong style="color: #26cc0d;">* Profession</strong>:
+                <ul style="list-style-type: '> '; padding-left: 20px; color: #39ff14;">
+                    <li>AI developer</li>
+                    <li>Data Scientist</li>
+                    <li>Machine Learning Engineer</li>
+                </ul>
+            </li>
+        </ul>
+<div class="terminal-wrapper" style="background-color: #000000; padding: 35px; border-radius: 15px; border: 1px solid #1a3d12; font-family: 'Courier New', monospace; box-shadow: inset 0 0 20px #000000, 0 0 30px #0f4a05;">
+    
+    <h3 style="color: #26cc0d; text-shadow: 0 0 10px #39ff14; font-size: 1.6rem; margin-bottom: 30px; border-bottom: 1px solid #1a3d12; padding-bottom: 10px;">[SKILLS_MANIFEST_v2.0]</h3>
 
-### About me
-Highly skilled, passionate and hardworking AI developer with an ability to complete functional specifications by
-developing, testing, and deploying real-time solutions. Ensuring Compliance and Security standards
-* **Profession**: 
-  * AI developer
-  * Data Scientist
-  * Machine Learning Engineer
+    <!-- Category Generator Function -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+        
+        <!-- Programming & Core -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _PROGRAMMING_LANGUAGES</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Python</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">C / C#</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Java</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">TypeScript</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">SQL / Cypher</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Ruby / PHP</span>
+            </div>
+        </div>
+
+        <!-- AI & Neural Networks -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _NEURAL_ENGINEERING</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">PyTorch / TF</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Transformers</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">CNN / RNN / LSTM</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">GNN / GraphDB</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">GANs / VAE</span>
+            </div>
+        </div>
+
+        <!-- Big Data & MLOps -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _DATA_ORCHESTRATION</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Spark / PySpark</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Kafka / Flink</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Airflow / MLFlow</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Kubeflow / DVC</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Databricks</span>
+            </div>
+        </div>
+
+        <!-- System Design -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _SYSTEM_ARCHITECTURE</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Load Balancing</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Sharding / CAP</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Idempotency</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Replication</span>
+            </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _INFRASTRUCTURE_DEVOPS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">AWS / Red Hat</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Docker / K8s</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Terraform / Ansible</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">CI/CD Pipelines</span>
+            </div>
+        </div>
+
+        <!-- Databases -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _DATABASE_CLUSTERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Postgres / MySQL</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">MongoDB / Chroma</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Neo4j / Redis</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">DuckDB / Athena</span>
+            </div>
+        </div>
+
+        <!-- UI & UX -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _FRONTEND_LIBRARIES</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">React Native / Next.js</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Tailwind / Shadcn</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Figma / Streamlit</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Svelte / Vue</span>
+            </div>
+        </div>
+
+        <!-- Management -->
+        <div>
+            <p style="color: #39ff14; font-weight: bold; margin-bottom: 12px;">> _STRATEGIC_MANAGEMENT</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Leadership</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Stakeholder Engagement</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Conflict Resolution</span>
+                <span style="background: #0f4a05; border: 1px solid #39ff14; padding: 4px 10px; border-radius: 4px; color: #ffffff; font-size: 0.85em;">Impact Driven</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Operating Systems Row -->
+    <div style="margin-top: 30px; padding: 15px; border: 1px dashed #26cc0d; border-radius: 8px;">
+        <span style="color: #39ff14; font-weight: bold;">HOST_OS: </span>
+        <span style="color: #ffffff;">Debian, Kali, macOS, Windows, Ubuntu, RHEL, Raspberry Pi</span>
+    </div>
+
+</div>
+
+        <!-- Contact Information -->
+        <h3 style="color: #26cc0d; text-shadow: 0 0 10px #39ff14; font-size: 1.5rem; margin-top: 40px;">### Contact Information</h3>
+        
+        <div style="display: flex; gap: 20px; margin: 20px 0;">
+            <a href="https://github.com" target="_blank" rel="noreferrer" style="filter: drop-shadow(0 0 8px #39ff14); transition: transform 0.2s;">
+                <img src="../../images/about_me/gh.png" width="36" height="36" alt="GitHub" style="filter: brightness(1.2);" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" style="filter: drop-shadow(0 0 8px #39ff14); transition: transform 0.2s;">
+                <img src="../../images/about_me/in.png" width="36" height="36" alt="LinkedIn" style="filter: brightness(1.2);" />
+            </a>
+        </div>
+<div style="margin: 20px 0;">
+    <a href="mailto:mukulnamagiri1@gmail.com" 
+       style="display: inline-flex; align-items: center; background-color: #f1f7f0; color: #ffffff; padding: 12px 24px; border: 1px solid #39ff14; border-radius: 6px; text-decoration: none; font-family: 'Courier New', monospace; font-weight: bold; box-shadow: 0 0 10px #39ff1444; transition: all 0.3s ease;"
+       onmouseover="this.style.backgroundColor='#39ff14'; this.style.color='#f1efef'; this.style.boxShadow='0 0 20px #39ff14';"
+       onmouseout="this.style.backgroundColor='#0f4a05'; this.style.color='#ffffff'; this.style.boxShadow='0 0 10px #eaf5e844';">
+       <span style="margin-right: 10px;">📧</span> Email Me
+    </a>
+</div>
 
 
-**Technical skills**
+    </div>
+</div>
 
 
-☑️ Software Development.  <br>
-☑️ Statistical Modelling <br> 
-☑️ Machine/Deep Learning.  <br> 
-☑️ Cloud computing, Big Data.
-
-### Contact Information
-
-<p align="left"> 
-<a href="https://github.com/Mukullight" target="_blank" rel="noreferrer"><img src="../../images/about_me/gh.png" width="32" height="32" /></a>
-<a href="https://www.linkedin.com/in/mukul-namagiri-434427190/" target="_blank" rel="noreferrer"><img src="../../images/about_me/in.png" width="32" height="32" /></a> 
-</p>
-
-
-
-
-
-- **Email**: mukulnamagiri1@gmail.com
-
-- **Curriculum Vitae**: [English](https://drive.google.com/file/d/1aRuadU-AKnQqIEuD9LJ9IZktgaBYvNKu/view?usp=sharing), 
-
+<br>
+<br>
 
 <body>
  
@@ -71,81 +191,108 @@ developing, testing, and deploying real-time solutions. Ensuring Compliance and 
  </footer>
  
  <style>
- /* Custom Footer Styles */
- .custom-footer {
-   background-color: #1a1a1a;
-   color: rgb(100,216,245);
-   width: calc(100% + 40px); /* Expand beyond container */
-   border-top: 2px solid gold;
-   box-sizing: border-box;
-   align: center;
-   border-right: 2px;
- }
- 
- .footer-content {
-   max-width: 2000px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   gap: 2rem;
-   padding: 0 20px; /* Add internal padding */
-   align:center;
- }
- 
- .footer-section h4 {
-   color: rgb(100,216,245);
-   margin-bottom: 1rem;
-   font-size: 1.1em;
- }
- 
- .footer-section ul {
-   list-style: none;
-   padding: 0;
-   color: rgb(100,216,245);
- }
- 
- .footer-section ul li {
-   margin-bottom: 0.5rem;
-   margin-top: 0.5rem;
-   margin-right: 0.25rem;
-   margin-left: 0.5rem;
-   background-color: rgb(100,216,245);
-   border-radius: 0.5rem; /* Changed from border to border-radius */
-   padding: 0.5rem; /* Added padding for better spacing */
-   border: 2px rgb(100,216,245); /* Added proper border declaration */
- }
- 
- .footer-section a {
-   text-decoration: none;
-   transition: color 0.3s ease;
- }
- 
- .footer-section a:hover {
-   color: black;
-   text-decoration: underline;
-   /* Add transition for smooth effect */
-   transition: text-decoration 0.3s ease;
- }
- 
- .footer-bottom {
-   text-align: center;
-   margin-top: 2rem;
-   padding-top: 1rem;
-   border-top: 1px solid #333;
- }
- .footer-icon {
-   width: 25px;
-   height: 25px;
-   vertical-align: middle;
-   transition: all 0.3s ease;
- }
- 
- 
- /* Override any external footer styles */
- footer:not(.custom-footer) {
-   display: none !important;
- }
+ :root {
+  --radium: #39ff14;
+  --radium-dim: #26cc0d;
+  --radium-dark: #0f4a05;
+  --glow-sm: 0 0 6px #39ff14aa, 0 0 14px #39ff1466;
+  --glow-md: 0 0 8px #39ff14cc, 0 0 20px #39ff1488, 0 0 40px #39ff1433;
+  --glow-text: 0 0 8px #39ff14, 0 0 20px #39ff1499;
+}
+
+.custom-footer {
+  background-color: #0a0a0a;
+  color: var(--radium);
+  width: calc(100% + 40px);
+  border-top: 2px solid var(--radium);
+  box-shadow: 0 -2px 18px #39ff1455;
+  box-sizing: border-box;
+  border-right: 2px;
+}
+
+.footer-content {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+  color: var(--radium);
+  text-shadow: var(--glow-text);
+  margin-bottom: 1rem;
+  font-size: 1.1em;
+  letter-spacing: 0.04em;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  color: var(--radium);
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-right: 0.25rem;
+  margin-left: 0.5rem;
+  background-color: var(--radium-dark);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--radium-dim);
+  box-shadow: var(--glow-sm);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  color: #ffff;
+}
+
+.footer-section ul li:hover {
+  background-color: #153d09;
+  box-shadow: var(--glow-md);
+}
+
+.footer-section a {
+  text-decoration: none;
+  text-shadow: var(--glow-text);
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #afffaa;
+  text-decoration: underline;
+  text-shadow: 0 0 12px #39ff14, 0 0 30px #39ff14;
+  transition: text-decoration 0.3s ease;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1a3d12;
+  color: var(--radium-dim);
+  text-shadow: var(--glow-sm);
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px #39ff14);
+}
+
+/* This makes the links inside the boxes white */
+.footer-section ul li a {
+  
+  color: var(--radium) !important;
+  text-shadow: var(--glow-text) !important ;
+}
+
+footer:not(.custom-footer) {
+  display: none !important;
+}
  </style>
    </body>
  

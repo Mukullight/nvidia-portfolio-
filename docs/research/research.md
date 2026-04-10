@@ -1,46 +1,75 @@
+<div style="background-color: black; padding: 40px 20px; font-family: 'Share Tech Mono', monospace; color: #39FF14;">
 
+  <!-- PROJECT TITLE -->
+  <h3 style="color: #39FF14; text-transform: uppercase; letter-spacing: 2px; border-bottom: 2px solid #39FF14; display: inline-block; padding-bottom: 5px; margin-bottom: 25px; text-shadow: 0 0 10px rgba(57, 255, 20, 0.7);">
+    Enhanced Logistic Regression with Richards Family Curve
+  </h3>
 
+  <!-- OVERVIEW CARD -->
+  <div style="background-color: #0a0a0a; border: 1px solid #39FF14; box-shadow: 0 0 10px rgba(57, 255, 20, 0.2); padding: 20px; margin-bottom: 30px; border-radius: 8px;">
+    <p style="margin-top: 0;">
+      <strong style="text-transform: uppercase; color: #fff; text-shadow: 0 0 5px #39FF14;">Innovation:</strong> 
+      Replaced traditional sigmoid function in logistic regression with a member of the Richards family of curves for enhanced adaptability to various data distributions.
+    </p>
 
-### Enhanced Logistic Regression with Richards Family Curve
+    <h4 style="color: #39FF14; margin-bottom: 10px; text-decoration: underline;">Key Features:</h4>
+    <p>
+      <strong style="color: #fff;">Flexibility:</strong> Utilizes the Richards curve's parameter <code>m</code> to adjust the curve's steepness, symmetry, and inflection point.
+    </p>
+    
+    <div style="background: rgba(57, 255, 20, 0.1); padding: 15px; border-radius: 4px; border-left: 4px solid #39FF14; margin: 15px 0; font-family: 'Courier New', monospace;">
+      <strong style="display: block; margin-bottom: 5px;">Richards Curve Formula:</strong>
+      <code>P(y=1|x) = (1 + exp(-(a + Σ b<sub>i</sub> x<sub>i</sub>)))<sup>-1/m</sup></code>
+    </div>
+  </div>
 
-**Overview:**
-**Innovation**: Replaced traditional sigmoid function in logistic regression with a member of the Richards family of curves for enhanced adaptability to various data distributions.
+  <!-- DETAILS GRID (Two Columns) -->
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
+    
+    <div style="flex: 1; min-width: 300px; border-left: 2px solid #39FF14; padding-left: 15px;">
+      <h4 style="color: #39FF14; margin-top: 0;">Advantages</h4>
+      <ul style="list-style-type: square; padding-left: 20px;">
+        <li><strong style="color: #fff;">Enhanced Model Fit:</strong> Models asymmetric or non-standard transitions.</li>
+        <li><strong style="color: #fff;">Reduced Overfitting:</strong> Captures nuanced data distributions effectively.</li>
+      </ul>
+    </div>
 
-**Key Features:**
-**Flexibility**: Utilizes the Richards curve's parameter `m` to adjust the curve's steepness, symmetry, and inflection point, providing a better fit for non-standard growth or decay patterns.
-**Richards Curve Formula**: 
+    <div style="flex: 1; min-width: 300px; border-left: 2px solid #39FF14; padding-left: 15px;">
+      <h4 style="color: #39FF14; margin-top: 0;">Challenges Addressed</h4>
+      <ul style="list-style-type: square; padding-left: 20px;">
+        <li><strong style="color: #fff;">Complexity:</strong> Optimized through efficient algorithm design.</li>
+        <li><strong style="color: #fff;">Interpretability:</strong> Strategies developed to explain the impact of <code>m</code>.</li>
+      </ul>
+    </div>
 
-<code>P(y=1|x) = (1 + exp(-(a + sum(i=1 to n) b<sub>i</sub> x<sub>i</sub>)))^(-1/m)</code>
+  </div>
 
-**Advantages:**
-**Enhanced Model Fit**: Capable of modeling asymmetric or differently shaped data transitions.
-**Potential Reduction in Overfitting**: Better captures nuanced data distributions, potentially reducing overfitting in complex scenarios.
+  <!-- APPLICATIONS & SKILLS -->
+  <div style="background-color: #0a0a0a; border: 1px solid #39FF14; padding: 20px; border-radius: 8px; margin-bottom: 40px;">
+    <h4 style="color: #39FF14; margin-top: 0; text-align: center;">Applications & Impact</h4>
+    <p style="text-align: center; color: #fff; font-style: italic;">Effective in Biological Growth Models and Economic Forecasts.</p>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 10px; margin-top: 15px;">
+      <span style="border: 1px solid #39FF14; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem;">Advanced Statistical Modeling</span>
+      <span style="border: 1px solid #39FF14; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem;">Python/R Programming</span>
+      <span style="border: 1px solid #39FF14; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem;">Data Analysis</span>
+    </div>
+  </div>
 
-**Implementation:**
-**Parameter Tuning**: Employed methods like grid search or gradient descent for optimizing the additional parameter `m` alongside traditional coefficients.
-**Regularization**: Applied regularization techniques to manage model complexity introduced by extra parameters.
+  <!-- SEPARATOR -->
+  <hr style="border: none; height: 3px; background-color: #39FF14; box-shadow: 0 0 10px #39FF14; margin: 40px 0;">
 
-**Challenges Addressed:**
-**Complexity**: Managed increased computational complexity through efficient algorithm design or by leveraging modern computing resources.
-**Interpretability**: Developed strategies for explaining model decisions despite added complexity, focusing on the impact of `m` on predictions.
+  <!-- NEXT SECTION HEADER -->
+  <h3 style="color: #39FF14; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57, 255, 20, 0.7); text-align: center;">
+    Synthetic Minority OverSampling using Multivariate distribution
+  </h3>
+  <p style="text-align: center; font-style: italic;">[Content for this section can be added here]</p>
 
-**Applications:**
-**Biological Growth Models**: Particularly effective in modeling population dynamics or biological growth that doesn't follow simple logistic patterns.
-**Economic Forecasts**: Applied in scenarios where economic growth or decline shows asymmetric trends.
-
-**Skills Demonstrated:**
-**Advanced Statistical Modeling**: Experience with extending classical models into new areas of application.
-**Data Analysis**: Proficiency in understanding and addressing data anomalies through model adjustment.
-**Python/R Programming**: Implementation of complex models using these languages, including optimization and visualization techniques.
-
-**Impact:**
-Enhanced prediction accuracy for datasets with unique growth patterns, leading to more informed decision-making in various scientific and commercial contexts.
-
-## Synthetic Minorituy OverSampling using Multivariate distribution
+</div>
 
 <iframe src="https://drive.google.com/file/d/1JUMei_aPGQNs6MrWaGbaX5WbpbkdKM3s/preview" width="100%" height="600px" allow="autoplay"></iframe>
 
-
+<br>
+<br>
 
 
 <footer class="custom-footer">
@@ -81,13 +110,22 @@ Enhanced prediction accuracy for datasets with unique growth patterns, leading t
 
 <style>
 /* Custom Footer Styles */
+:root {
+  --radium: #39ff14;
+  --radium-dim: #26cc0d;
+  --radium-dark: #0f4a05;
+  --glow-sm: 0 0 6px #39ff14aa, 0 0 14px #39ff1466;
+  --glow-md: 0 0 8px #39ff14cc, 0 0 20px #39ff1488, 0 0 40px #39ff1433;
+  --glow-text: 0 0 8px #39ff14, 0 0 20px #39ff1499;
+}
+
 .custom-footer {
-  background-color: #1a1a1a;
-  color: rgb(100,216,245);
-  width: calc(100% + 40px); /* Expand beyond container */
-  border-top: 2px solid gold;
+  background-color: #0a0a0a;
+  color: var(--radium);
+  width: calc(100% + 40px);
+  border-top: 2px solid var(--radium);
+  box-shadow: 0 -2px 18px #39ff1455;
   box-sizing: border-box;
-  align: center;
   border-right: 2px;
 }
 
@@ -98,20 +136,21 @@ Enhanced prediction accuracy for datasets with unique growth patterns, leading t
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 0 20px; /* Add internal padding */
-  align:center;
+  padding: 0 20px;
 }
 
 .footer-section h4 {
-  color: rgb(100,216,245);
+  color: var(--radium);
+  text-shadow: var(--glow-text);
   margin-bottom: 1rem;
   font-size: 1.1em;
+  letter-spacing: 0.04em;
 }
 
 .footer-section ul {
   list-style: none;
   padding: 0;
-  color: rgb(100,216,245);
+  color: var(--radium);
 }
 
 .footer-section ul li {
@@ -119,21 +158,30 @@ Enhanced prediction accuracy for datasets with unique growth patterns, leading t
   margin-top: 0.5rem;
   margin-right: 0.25rem;
   margin-left: 0.5rem;
-  background-color: rgb(100,216,245);
-  border-radius: 0.5rem; /* Changed from border to border-radius */
-  padding: 0.5rem; /* Added padding for better spacing */
-  border: 2px rgb(100,216,245); /* Added proper border declaration */
+  background-color: var(--radium-dark);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--radium-dim);
+  box-shadow: var(--glow-sm);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  color: #ffff;
+}
+
+.footer-section ul li:hover {
+  background-color: #153d09;
+  box-shadow: var(--glow-md);
 }
 
 .footer-section a {
   text-decoration: none;
+  text-shadow: var(--glow-text);
   transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-  color: black;
+  color: #afffaa;
   text-decoration: underline;
-  /* Add transition for smooth effect */
+  text-shadow: 0 0 12px #39ff14, 0 0 30px #39ff14;
   transition: text-decoration 0.3s ease;
 }
 
@@ -141,20 +189,28 @@ Enhanced prediction accuracy for datasets with unique growth patterns, leading t
   text-align: center;
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid #1a3d12;
+  color: var(--radium-dim);
+  text-shadow: var(--glow-sm);
 }
+
 .footer-icon {
   width: 25px;
   height: 25px;
   vertical-align: middle;
   transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px #39ff14);
 }
 
+/* This makes the links inside the boxes white */
+.footer-section ul li a {
+  
+  color: var(--radium) !important;
+  text-shadow: var(--glow-text) !important ;
+}
 
-/* Override any external footer styles */
 footer:not(.custom-footer) {
   display: none !important;
-}
-</style>
+}</style>
   </body>
 

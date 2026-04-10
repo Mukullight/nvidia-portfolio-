@@ -104,24 +104,13 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
-
-extra_css:
-  - css/neoteroi-mkdocs.css
-
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/eva-hex@latest/dist/eva-hex.min.js
 
 
 theme:
   name: simple-blog
   language: en
-  logo: images/bot.jpg
-  favicon: images/bot.jpg
+  logo: images/gpu.jpg
+  favicon: images/gpu.jpg
 nav:
     - Home: index.md
     - About Me:
@@ -135,6 +124,14 @@ nav:
       - Open Source and Blogs: software/software.md
       - Books: software/books.md
 
+extra_css:
+  - css/neoteroi-mkdocs.css  # Path is now docs/css/neoteroi-mkdocs.css
+  - css/stom.css           # Path is now docs/css/custom.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/eva-hex@latest/dist/eva-hex.min.js
 
 
 
