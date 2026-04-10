@@ -134,13 +134,22 @@
 
 <style>
 /* Custom Footer Styles */
+:root {
+  --radium: #39ff14;
+  --radium-dim: #26cc0d;
+  --radium-dark: #0f4a05;
+  --glow-sm: 0 0 6px #39ff14aa, 0 0 14px #39ff1466;
+  --glow-md: 0 0 8px #39ff14cc, 0 0 20px #39ff1488, 0 0 40px #39ff1433;
+  --glow-text: 0 0 8px #39ff14, 0 0 20px #39ff1499;
+}
+
 .custom-footer {
-  background-color: #1a1a1a;
-  color: rgb(100,216,245);
-  width: calc(100% + 40px); /* Expand beyond container */
-  border-top: 2px solid gold;
+  background-color: #0a0a0a;
+  color: var(--radium);
+  width: calc(100% + 40px);
+  border-top: 2px solid var(--radium);
+  box-shadow: 0 -2px 18px #39ff1455;
   box-sizing: border-box;
-  align: center;
   border-right: 2px;
 }
 
@@ -151,20 +160,21 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 0 20px; /* Add internal padding */
-  align:center;
+  padding: 0 20px;
 }
 
 .footer-section h4 {
-  color: rgb(100,216,245);
+  color: var(--radium);
+  text-shadow: var(--glow-text);
   margin-bottom: 1rem;
   font-size: 1.1em;
+  letter-spacing: 0.04em;
 }
 
 .footer-section ul {
   list-style: none;
   padding: 0;
-  color: rgb(100,216,245);
+  color: var(--radium);
 }
 
 .footer-section ul li {
@@ -172,21 +182,30 @@
   margin-top: 0.5rem;
   margin-right: 0.25rem;
   margin-left: 0.5rem;
-  background-color: rgb(100,216,245);
-  border-radius: 0.5rem; /* Changed from border to border-radius */
-  padding: 0.5rem; /* Added padding for better spacing */
-  border: 2px rgb(100,216,245); /* Added proper border declaration */
+  background-color: var(--radium-dark);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--radium-dim);
+  box-shadow: var(--glow-sm);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  color: #ffff;
+}
+
+.footer-section ul li:hover {
+  background-color: #153d09;
+  box-shadow: var(--glow-md);
 }
 
 .footer-section a {
   text-decoration: none;
+  text-shadow: var(--glow-text);
   transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-  color: black;
+  color: #afffaa;
   text-decoration: underline;
-  /* Add transition for smooth effect */
+  text-shadow: 0 0 12px #39ff14, 0 0 30px #39ff14;
   transition: text-decoration 0.3s ease;
 }
 
@@ -194,20 +213,28 @@
   text-align: center;
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid #1a3d12;
+  color: var(--radium-dim);
+  text-shadow: var(--glow-sm);
 }
+
 .footer-icon {
   width: 25px;
   height: 25px;
   vertical-align: middle;
   transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px #39ff14);
 }
 
+/* This makes the links inside the boxes white */
+.footer-section ul li a {
+  
+  color: var(--radium) !important;
+  text-shadow: var(--glow-text) !important ;
+}
 
-/* Override any external footer styles */
 footer:not(.custom-footer) {
   display: none !important;
-}
-</style>
+}</style>
   </body>
 
