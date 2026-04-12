@@ -31,7 +31,7 @@
 
 I contribute as developer/maintainer of the following Python packages:
 
-<iframe src="https://mukullight.pythonanywhere.com/" 
+<iframe src="https://factapp-ea1z.onrender.com/" 
         width="100%" 
         height="600px" 
         frameborder="0" 
@@ -39,7 +39,22 @@ I contribute as developer/maintainer of the following Python packages:
         style="border: 2px solid #000;">
     <p>Your browser does not support iframes.</p>
 </iframe>
-
+<iframe src="https://mukullight.pythonanywhere.com/form" 
+        width="100%" 
+        height="600px" 
+        frameborder="0" 
+        allowfullscreen
+        style="border: 2px solid #000;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+<iframe src="https://factapp-ea1z.onrender.com/blogindex" 
+        width="100%" 
+        height="600px" 
+        frameborder="0" 
+        allowfullscreen
+        style="border: 2px solid #000;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
 <footer class="custom-footer">
   <div class="footer-content">
     <div class="footer-section">
