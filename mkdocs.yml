@@ -120,8 +120,8 @@ extra_javascript:
 theme:
   name: simple-blog
   language: en
-  logo: images/bot.jpg
-  favicon: images/bot.jpg
+  logo: images/gpu.jpg
+  favicon: images/gpu.jpg
 nav:
     - Home: index.md
     - About Me:
