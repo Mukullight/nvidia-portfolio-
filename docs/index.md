@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div class="container my-4">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
-        <div class="sketchfab-embed-wrapper">
-          
-          <p class="text-muted small mt-2">
-            <a href="https://sketchfab.com/3d-models/tesla-bot-low-poly-b75cc21ee50f4af2a7ae3f2b09ce71ea?utm_medium=embed&utm_campaign=share-popup&utm_content=b75cc21ee50f4af2a7ae3f2b09ce71ea" target="_blank" rel="nofollow" class="text-primary fw-bold">Tesla Bot - Low Poly</a> 
-            by <a href="https://sketchfab.com/5th-Dimension?utm_medium=embed&utm_campaign=share-popup&utm_content=b75cc21ee50f4af2a7ae3f2b09ce71ea" target="_blank" rel="nofollow" class="text-primary fw-bold">5th Dimension</a> 
-            on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b75cc21ee50f4af2a7ae3f2b09ce71ea" target="_blank" rel="nofollow" class="text-primary fw-bold">Sketchfab</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 <style>
   /* Specific container styling */
@@ -84,8 +66,8 @@ h1, h2, h3 {
 }
 
 </style>
-</head>
-<body>
+
+
   <hr style="border: 2px solid #333; width: 100%; margin: 5px auto;">
  <div style="background-color: black; color: white; padding: 10px; display: inline-block;">
     <h1 style="color: #39ff14">Mukul Namagiri</h1>
@@ -282,5 +264,5 @@ footer:not(.custom-footer) {
   display: none !important;
 }
 </style>
-  </body>
+ 
 
