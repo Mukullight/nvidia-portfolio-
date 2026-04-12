@@ -124,7 +124,7 @@
         <div style="flex: 1; min-width: 280px;">
             <div style="color: #39ff14; margin-bottom: 15px;">
                 <strong style="font-size: 1.4em; color: #ffffff;">> Machine Learning Research assistant</strong><br>
-                <span style="color: #26cc0d;">Birla Institute of Technology | India | 2022</span>
+                <span style="color: #26cc0d;">Birla Institute of Technology | India | Jul 2021- Jul 2023</span>
             </div>
             <ul style="list-style-type: '> '; padding-left: 20px;">
                 <li>Developed a physics-informed machine learning model for simulating population dynamics.</li>

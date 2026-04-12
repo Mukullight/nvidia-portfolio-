@@ -86,11 +86,11 @@ h1, h2, h3 {
             <div style="color: #e0e0e0; line-height: 1.8; font-size: 1em;">
                 <div style="margin-bottom: 5px;">
                     <span style="color: #39ff14; font-weight: bold;">&gt;</span> 
-                    <strong>Location:</strong> Nellore, Andhra pradesh, India
+                    <strong>Location:</strong> Nellore, Andhra Pradesh, India
                 </div>
                 <div style="margin-bottom: 5px;">
                     <span style="color: #39ff14; font-weight: bold;">&gt;</span> 
-                    <strong>Email:</strong> <a href="mailto:mukulnamagiri1@gmail.com" style="color: #ffffff; text-decoration: none; background: #0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;"> <span style="color: #ffffff;">mukulnamagiri1@gmail.com</span></a>
+                    <strong>Email:</strong> <a href="mailto:mukul.namagiri.pm@gmail.com" style="color: #ffffff; text-decoration: none; background: #0000; padding: 2px 6px; border-radius: 4px; font-weight: bold;"> <span style="color: #ffffff;">mukulnamagiri1@gmail.com</span></a>
                 </div>
                 <div>
                     <span style="color: #39ff14; font-weight: bold;">&gt;</span> 
