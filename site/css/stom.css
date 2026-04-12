@@ -1,9 +1,0 @@
-/* For general body background */
-.componenet-content {
-  background-color: #0000 !important; /* Replace with your desired color */
-}
-
-/* Specifically for Material-based themes (like simple-blog) */
-:root {
-  --md-default-bg-color: #0000 !important; 
-}
