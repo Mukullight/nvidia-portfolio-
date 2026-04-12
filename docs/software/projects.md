@@ -1,3 +1,40 @@
+
+### [CMCL flood monitoring system for Department of Environment lood and Rural affirs](https://cmcl.onrender.com/)
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;  padding: 20px; border-radius: 8px; font-family: sans-serif;">
+  
+  <!-- Project Visual (Left Column) -->
+  <div style="flex-shrink: 0; flex: 1; min-width: 300px;">
+    <a href="https://cmcl.onrender.com/" target="_blank">
+      <img src="../../images/flood.png" alt="Flood Monitoring Preview" 
+           style="width: 100%; height: auto; border: 2px solid #39ff14; ">
+    </a>
+  </div>
+
+  <!-- Project Text (Right Column) -->
+  <div style="flex: 1; min-width: 300px;">
+    <h2 style="color: #39ff14; margin-top: 0;">Flood Monitoring System 🌊</h2>
+    <p style="color: #26cc0d; font-weight: bold;">🧪 Real-Time Geospatial Analytics</p>
+    <p style="line-height: 1.6;">
+      Developed a high-precision flood monitoring dashboard that processes real-time metrics to alert flood stations with immediate warnings. 
+      The system integrates interactive GeoJSON-based maps and persistent data storage to monitor environmental variables and ensure early intervention during critical weather events.
+    </p>
+    
+    <div style="margin-top: 15px;">
+        <span style="color: #39ff14;">&gt;</span> <strong>Live App:</strong> 
+        <a href="https://cmcl.onrender.com/" target="_blank" style="color: #ffffff; text-decoration: none; border-bottom: 1px dashed #39ff14;">cmcl.onrender.com</a>
+    </div>
+    
+    <div style="margin-top: 10px;">
+        <span style="color: #39ff14;">&gt;</span> <strong>Video Demo:</strong> 
+        <a href="https://www.linkedin.com/posts/mukul-namagiri-434427190_floodmonitoring-realtimeanalytics-defra-activity-7307723740283322369-v2I9" target="_blank" style="color: #ffffff; text-decoration: none; border-bottom: 1px dashed #39ff14;">LinkedIn Video</a>
+    </div>
+  </div>
+</div>
+
+
+
 ### [Orange](https://github.com/Mukullight/orange/)
 
 
