@@ -44,6 +44,40 @@ Developed landing page and backend system for the project
         style="border: 2px solid #000;">
     <p>Your browser does not support iframes.</p>
 </iframe>
+
+# Blogs
+
+<iframe src="https://factity.github.io/fairness/" 
+        width="100%" 
+        height="600px" 
+        frameborder="0" 
+        allowfullscreen
+        style="border: 2px solid #000;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+
+<iframe src="https://factity.github.io/fairness/blogdragon" 
+        width="100%" 
+        height="600px" 
+        frameborder="0" 
+        allowfullscreen
+        style="border: 2px solid #000;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+
+
+<iframe src="https://factity.github.io/fairness/blogstructures" 
+        width="100%" 
+        height="600px" 
+        frameborder="0" 
+        allowfullscreen
+        style="border: 2px solid #000;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+
+
+
+
 <iframe src="https://mukullight.pythonanywhere.com/form" 
         width="100%" 
         height="600px" 
